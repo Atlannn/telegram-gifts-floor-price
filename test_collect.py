@@ -29,3 +29,17 @@ def test_merge_replaces_same_day_only():
     new = [{"date": "2026-11-04", "collection": "a"}]
     out = collect.merge_rows(old, new, "2026-11-04")
     assert len(out) == 3 and {"date": "2026-11-04", "collection": "b"} in out
+
+
+def test_parse_rate():
+    payload = {"rates": {"TON": {"prices": {"USD": 1.17566, "EUR": 1.04747}}}}
+    assert collect.parse_rate(payload) == {"gram_usd": 1.1757, "gram_eur": 1.0475}
+
+
+def test_save_rate_one_row_per_day(tmp_path, monkeypatch):
+    monkeypatch.setattr(collect, "DATA_DIR", str(tmp_path))
+    monkeypatch.setattr(collect, "RATES_PATH", str(tmp_path / "rates.csv"))
+    collect.save_rate("2026-11-04", {"gram_usd": 1.0, "gram_eur": 0.9})
+    collect.save_rate("2026-11-04", {"gram_usd": 1.2, "gram_eur": 1.0})
+    lines = (tmp_path / "rates.csv").read_text().strip().splitlines()
+    assert lines == ["date,gram_usd,gram_eur", "2026-11-04,1.2,1.0"]

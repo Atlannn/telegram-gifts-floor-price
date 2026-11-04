@@ -23,6 +23,8 @@ UA = "Mozilla/5.0 (compatible; telegram-gifts-floor-price/0.1; +https://github.c
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 CSV_PATH = os.path.join(DATA_DIR, "floor_prices.csv")
 LATEST_PATH = os.path.join(DATA_DIR, "latest.json")
+RATES_PATH = os.path.join(DATA_DIR, "rates.csv")
+RATES_URL = "https://tonapi.io/v2/rates?tokens=ton&currencies=usd,eur"  # the token key is still "ton"
 COLUMNS = ["date", "collection", "floor_gram", "floor_fixed_gram", "lots_seen", "auctions_seen"]
 DELAY = 1.0  # seconds between requests, be polite to the source
 
@@ -75,6 +77,27 @@ def collect_one(slug):
     return summarize(parse_lots(page))
 
 
+def parse_rate(payload):
+    """GRAM price in USD and EUR from a tonapi.io /v2/rates response."""
+    prices = payload["rates"]["TON"]["prices"]
+    return {"gram_usd": round(float(prices["USD"]), 4), "gram_eur": round(float(prices["EUR"]), 4)}
+
+
+def save_rate(day, rate):
+    """Keep one rate row per day in data/rates.csv (re-runs replace that day)."""
+    rows = []
+    if os.path.exists(RATES_PATH):
+        with open(RATES_PATH, newline="", encoding="utf-8") as f:
+            rows = [r for r in csv.DictReader(f) if r["date"] != day]
+    rows.append({"date": day, **rate})
+    rows.sort(key=lambda r: r["date"])
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(RATES_PATH, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["date", "gram_usd", "gram_eur"])
+        w.writeheader()
+        w.writerows(rows)
+
+
 def merge_rows(existing, new_rows, day):
     """Replace today's rows for the same collections, keep the rest (re-runs are safe)."""
     replaced = {r["collection"] for r in new_rows}
@@ -114,10 +137,15 @@ def main(argv):
             new_rows.append({"date": day, "collection": slug, **s})
     if not new_rows:
         sys.exit("No prices collected; keeping the existing data.")
-    write_csv(merge_rows(read_csv(), new_rows, day))
-    with open(LATEST_PATH, "w", encoding="utf-8") as f:
+    try:  # a missing rate must not lose the day's floors
+        save_rate(day, parse_rate(json.loads(get(RATES_URL))))
+    except Exception as e:
+        print(f"  rate not saved: {e}")
+    merged = merge_rows(read_csv(), new_rows, day)
+    write_csv(merged)
+    with open(LATEST_PATH, "w", encoding="utf-8") as f:  # all of today's rows, also after a partial run
         json.dump({"date": day, "unit": "GRAM", "source": "fragment.com",
-                   "floors": {r["collection"]: r["floor_gram"] for r in new_rows}}, f, indent=1)
+                   "floors": {r["collection"]: float(r["floor_gram"]) for r in merged if r["date"] == day}}, f, indent=1)
     print(f"{day}: {len(new_rows)} collections saved, {len(failed)} failed")
     for line in failed:
         print("  failed", line)

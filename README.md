@@ -6,8 +6,20 @@ One CSV, one row per collection per day, prices in GRAM (the coin formerly calle
 
 Updated automatically by GitHub Actions. First measurement: **4 Nov 2026**, 123 collections.
 
-- Data: [`data/floor_prices.csv`](data/floor_prices.csv) (full history), [`data/latest.json`](data/latest.json) (today's floors)
+- Data: [`data/floor_prices.csv`](data/floor_prices.csv) (full history), [`data/rates.csv`](data/rates.csv) (daily GRAM rate in USD and EUR), [`data/latest.json`](data/latest.json) (today's floors)
 - Live tool with rarity and a net-profit calculator: [Telegram Gifts checker on Baltic Assets](https://balticassets.eu/en/crypto/telegram-gifts/)
+
+## Charts
+
+Redrawn every Monday from the full history. The second chart converts each day's floor at that day's
+GRAM/USD rate (from [tonapi.io](https://tonapi.io), stored in `data/rates.csv`), so you can see how much of a
+move is the gift and how much is the coin.
+
+![Floor price in GRAM](charts/floor_gram.png)
+
+![Floor price in USD](charts/floor_usd.png)
+
+Charts are single-point until more days are collected; they fill in as the history grows.
 
 ## Columns
 
