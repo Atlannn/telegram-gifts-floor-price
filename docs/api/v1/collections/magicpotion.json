@@ -1,0 +1,15 @@
+{
+ "collection": "magicpotion",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 75.0,
+   "floor_fixed_gram": null,
+   "floor_usd": 88.17,
+   "floor_eur": 78.56,
+   "lots_seen": 37,
+   "auctions_seen": 37
+  }
+ ]
+}

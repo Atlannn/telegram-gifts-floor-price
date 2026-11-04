@@ -1,0 +1,15 @@
+{
+ "collection": "swisswatch",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 69.0,
+   "floor_fixed_gram": 75.0,
+   "floor_usd": 81.12,
+   "floor_eur": 72.27,
+   "lots_seen": 60,
+   "auctions_seen": 6
+  }
+ ]
+}

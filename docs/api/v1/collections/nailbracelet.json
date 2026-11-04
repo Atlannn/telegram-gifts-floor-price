@@ -1,0 +1,15 @@
+{
+ "collection": "nailbracelet",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 149.0,
+   "floor_fixed_gram": 149.0,
+   "floor_usd": 175.16,
+   "floor_eur": 156.06,
+   "lots_seen": 60,
+   "auctions_seen": 0
+  }
+ ]
+}

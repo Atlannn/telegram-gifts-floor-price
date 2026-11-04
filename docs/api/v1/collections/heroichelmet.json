@@ -1,0 +1,15 @@
+{
+ "collection": "heroichelmet",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 195.0,
+   "floor_fixed_gram": 195.0,
+   "floor_usd": 229.24,
+   "floor_eur": 204.24,
+   "lots_seen": 60,
+   "auctions_seen": 0
+  }
+ ]
+}

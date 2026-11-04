@@ -1,0 +1,15 @@
+{
+ "collection": "joyfulbundle",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 11.0,
+   "floor_fixed_gram": 11.0,
+   "floor_usd": 12.93,
+   "floor_eur": 11.52,
+   "lots_seen": 60,
+   "auctions_seen": 4
+  }
+ ]
+}

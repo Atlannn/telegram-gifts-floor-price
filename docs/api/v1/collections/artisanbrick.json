@@ -1,0 +1,15 @@
+{
+ "collection": "artisanbrick",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 83.0,
+   "floor_fixed_gram": 83.0,
+   "floor_usd": 97.57,
+   "floor_eur": 86.93,
+   "lots_seen": 60,
+   "auctions_seen": 0
+  }
+ ]
+}

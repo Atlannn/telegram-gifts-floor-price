@@ -1,0 +1,15 @@
+{
+ "collection": "heartlocket",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 1444.0,
+   "floor_fixed_gram": 1444.0,
+   "floor_usd": 1697.57,
+   "floor_eur": 1512.45,
+   "lots_seen": 38,
+   "auctions_seen": 0
+  }
+ ]
+}

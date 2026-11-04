@@ -1,0 +1,15 @@
+{
+ "collection": "plushpepe",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 7500.0,
+   "floor_fixed_gram": null,
+   "floor_usd": 8817.0,
+   "floor_eur": 7855.5,
+   "lots_seen": 60,
+   "auctions_seen": 60
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "collection": "durovscap",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 463.0,
+   "floor_fixed_gram": null,
+   "floor_usd": 544.3,
+   "floor_eur": 484.95,
+   "lots_seen": 60,
+   "auctions_seen": 60
+  }
+ ]
+}

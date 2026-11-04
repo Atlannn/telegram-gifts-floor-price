@@ -1,0 +1,15 @@
+{
+ "collection": "tophat",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 12.0,
+   "floor_fixed_gram": 12.0,
+   "floor_usd": 14.11,
+   "floor_eur": 12.57,
+   "lots_seen": 60,
+   "auctions_seen": 7
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "collection": "lootbag",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 150.0,
+   "floor_fixed_gram": 150.0,
+   "floor_usd": 176.34,
+   "floor_eur": 157.11,
+   "lots_seen": 60,
+   "auctions_seen": 2
+  }
+ ]
+}

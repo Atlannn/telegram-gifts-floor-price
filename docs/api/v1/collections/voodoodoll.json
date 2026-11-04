@@ -1,0 +1,15 @@
+{
+ "collection": "voodoodoll",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 43.0,
+   "floor_fixed_gram": 44.0,
+   "floor_usd": 50.55,
+   "floor_eur": 45.04,
+   "lots_seen": 60,
+   "auctions_seen": 5
+  }
+ ]
+}

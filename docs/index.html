@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Telegram gifts floor price API: free JSON, updated daily</title>
+<meta name="description" content="Free static JSON API with the daily floor price of every Telegram NFT gift collection, in GRAM, USD and EUR. No key, CORS enabled, full history.">
+<style>
+body{font:16px/1.6 system-ui,sans-serif;max-width:46rem;margin:2rem auto;padding:0 1rem;color:#1b1f24}
+code,pre{font-family:ui-monospace,Consolas,monospace;background:#f2f4f7;border-radius:4px}
+code{padding:.1em .3em}pre{padding:1rem;overflow:auto}
+a{color:#0b5fff}
+</style>
+</head>
+<body>
+<h1>Telegram gifts floor price API</h1>
+<p>Free JSON with the daily floor price of every Telegram NFT gift collection (Plush Pepe, Durov's Cap, Lol Pop and the rest).
+No key, no sign-up, CORS enabled. Data comes from <a href="https://fragment.com/gifts" rel="nofollow">fragment.com</a>, collected once a day by GitHub Actions.
+Prices are in GRAM (the coin formerly called TON), with USD and EUR at that day's rate.</p>
+
+<h2>Endpoints</h2>
+<pre>GET /api/v1/index.json                   list of collections and the latest date
+GET /api/v1/latest.json                  today's floor of every collection
+GET /api/v1/collections/&lt;slug&gt;.json     full daily history of one collection</pre>
+<p>Base URL: <code>https://atlannn.github.io/telegram-gifts-floor-price</code></p>
+<p>Try it: <a href="api/v1/latest.json">latest.json</a>, <a href="api/v1/collections/plushpepe.json">plushpepe.json</a>.</p>
+
+<h2>Example</h2>
+<pre>curl https://atlannn.github.io/telegram-gifts-floor-price/api/v1/collections/plushpepe.json</pre>
+<pre>fetch("https://atlannn.github.io/telegram-gifts-floor-price/api/v1/latest.json")
+  .then(r =&gt; r.json())
+  .then(d =&gt; console.log(d.floors.plushpepe.floor_usd));</pre>
+
+<h2>Fields</h2>
+<ul>
+<li><code>floor_gram</code>: cheapest lot, in GRAM. Can be an auction price.</li>
+<li><code>floor_fixed_gram</code>: cheapest fixed-price lot, or <code>null</code>.</li>
+<li><code>floor_usd</code>, <code>floor_eur</code>: <code>floor_gram</code> at that day's rate (<code>null</code> if no rate was stored).</li>
+<li><code>lots_seen</code>: lots counted on the first Fragment page (at most 60, not the total listed).</li>
+<li><code>auctions_seen</code>: how many of those lots are auctions.</li>
+</ul>
+<p>A floor is an asking price, not a sale price, and fees are not included.</p>
+
+<h2>Links</h2>
+<ul>
+<li><a href="https://github.com/Atlannn/telegram-gifts-floor-price">Source and raw CSV on GitHub</a> (code MIT, data CC BY 4.0)</li>
+<li><a href="https://balticassets.eu/en/crypto/telegram-gifts/">Telegram Gifts checker with rarity and a net-profit calculator, Baltic Assets</a></li>
+</ul>
+<p>Data licence: CC BY 4.0, credit "Telegram gifts floor prices, <a href="https://balticassets.eu">Baltic Assets</a>".</p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+ "collection": "khabibspapakha",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 29.0,
+   "floor_fixed_gram": 29.0,
+   "floor_usd": 34.09,
+   "floor_eur": 30.37,
+   "lots_seen": 60,
+   "auctions_seen": 2
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "collection": "trappedheart",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 18.0,
+   "floor_fixed_gram": null,
+   "floor_usd": 21.16,
+   "floor_eur": 18.85,
+   "lots_seen": 60,
+   "auctions_seen": 60
+  }
+ ]
+}

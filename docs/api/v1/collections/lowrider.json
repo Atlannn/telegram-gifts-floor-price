@@ -1,0 +1,15 @@
+{
+ "collection": "lowrider",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 70.0,
+   "floor_fixed_gram": 70.0,
+   "floor_usd": 82.29,
+   "floor_eur": 73.32,
+   "lots_seen": 60,
+   "auctions_seen": 6
+  }
+ ]
+}

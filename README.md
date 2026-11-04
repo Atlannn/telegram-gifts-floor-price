@@ -54,6 +54,19 @@ df = pd.read_csv("https://raw.githubusercontent.com/Atlannn/telegram-gifts-floor
 df[df.collection == "plushpepe"].plot(x="date", y="floor_gram")
 ```
 
+## JSON API
+
+The same data as a free static JSON API on GitHub Pages: no key, CORS enabled, rebuilt after every daily run.
+
+```
+https://atlannn.github.io/telegram-gifts-floor-price/api/v1/index.json
+https://atlannn.github.io/telegram-gifts-floor-price/api/v1/latest.json
+https://atlannn.github.io/telegram-gifts-floor-price/api/v1/collections/plushpepe.json
+```
+
+Floors come in GRAM, USD and EUR. Details: [API page](https://atlannn.github.io/telegram-gifts-floor-price/).
+Rebuild locally with `python build_api.py` (writes `docs/api/v1/`).
+
 ## Collect it yourself
 
 ```bash

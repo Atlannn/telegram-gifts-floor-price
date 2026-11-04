@@ -1,0 +1,15 @@
+{
+ "collection": "mightyarm",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 137.0,
+   "floor_fixed_gram": 137.0,
+   "floor_usd": 161.06,
+   "floor_eur": 143.49,
+   "lots_seen": 60,
+   "auctions_seen": 2
+  }
+ ]
+}

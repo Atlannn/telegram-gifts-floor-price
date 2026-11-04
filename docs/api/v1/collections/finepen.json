@@ -1,0 +1,15 @@
+{
+ "collection": "finepen",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 9.0,
+   "floor_fixed_gram": 9.0,
+   "floor_usd": 10.58,
+   "floor_eur": 9.43,
+   "lots_seen": 60,
+   "auctions_seen": 11
+  }
+ ]
+}

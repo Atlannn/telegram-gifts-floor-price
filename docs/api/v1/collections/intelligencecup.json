@@ -1,0 +1,15 @@
+{
+ "collection": "intelligencecup",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 3099.0,
+   "floor_fixed_gram": 3099.0,
+   "floor_usd": 3643.18,
+   "floor_eur": 3245.89,
+   "lots_seen": 8,
+   "auctions_seen": 0
+  }
+ ]
+}

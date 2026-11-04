@@ -1,0 +1,15 @@
+{
+ "collection": "preciouspeach",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 295.0,
+   "floor_fixed_gram": null,
+   "floor_usd": 346.8,
+   "floor_eur": 308.98,
+   "lots_seen": 49,
+   "auctions_seen": 49
+  }
+ ]
+}

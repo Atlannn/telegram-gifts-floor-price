@@ -1,0 +1,15 @@
+{
+ "collection": "jellybunny",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 10.0,
+   "floor_fixed_gram": null,
+   "floor_usd": 11.76,
+   "floor_eur": 10.47,
+   "lots_seen": 60,
+   "auctions_seen": 60
+  }
+ ]
+}

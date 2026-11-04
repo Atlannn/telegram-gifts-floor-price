@@ -1,0 +1,15 @@
+{
+ "collection": "kissedfrog",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 67.0,
+   "floor_fixed_gram": null,
+   "floor_usd": 78.77,
+   "floor_eur": 70.18,
+   "lots_seen": 60,
+   "auctions_seen": 60
+  }
+ ]
+}

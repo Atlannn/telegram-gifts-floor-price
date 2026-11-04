@@ -1,0 +1,15 @@
+{
+ "collection": "eternalrose",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 33.0,
+   "floor_fixed_gram": null,
+   "floor_usd": 38.79,
+   "floor_eur": 34.56,
+   "lots_seen": 56,
+   "auctions_seen": 56
+  }
+ ]
+}

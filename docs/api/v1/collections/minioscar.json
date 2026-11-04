@@ -1,0 +1,15 @@
+{
+ "collection": "minioscar",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 115.0,
+   "floor_fixed_gram": 115.0,
+   "floor_usd": 135.19,
+   "floor_eur": 120.45,
+   "lots_seen": 60,
+   "auctions_seen": 0
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "collection": "libertyfigure",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 6.0,
+   "floor_fixed_gram": 6.0,
+   "floor_usd": 7.05,
+   "floor_eur": 6.28,
+   "lots_seen": 60,
+   "auctions_seen": 9
+  }
+ ]
+}

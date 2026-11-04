@@ -1,0 +1,15 @@
+{
+ "collection": "electricskull",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 35.0,
+   "floor_fixed_gram": 35.0,
+   "floor_usd": 41.15,
+   "floor_eur": 36.66,
+   "lots_seen": 60,
+   "auctions_seen": 1
+  }
+ ]
+}

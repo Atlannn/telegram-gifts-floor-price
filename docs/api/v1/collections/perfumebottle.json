@@ -1,0 +1,15 @@
+{
+ "collection": "perfumebottle",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 95.0,
+   "floor_fixed_gram": null,
+   "floor_usd": 111.68,
+   "floor_eur": 99.5,
+   "lots_seen": 41,
+   "auctions_seen": 41
+  }
+ ]
+}

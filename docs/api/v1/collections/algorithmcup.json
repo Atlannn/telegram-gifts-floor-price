@@ -1,0 +1,15 @@
+{
+ "collection": "algorithmcup",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 3450.0,
+   "floor_fixed_gram": 3450.0,
+   "floor_usd": 4055.82,
+   "floor_eur": 3613.53,
+   "lots_seen": 13,
+   "auctions_seen": 0
+  }
+ ]
+}

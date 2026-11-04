@@ -1,0 +1,15 @@
+{
+ "collection": "genielamp",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-04",
+   "floor_gram": 40.0,
+   "floor_fixed_gram": 40.0,
+   "floor_usd": 47.02,
+   "floor_eur": 41.9,
+   "lots_seen": 60,
+   "auctions_seen": 4
+  }
+ ]
+}
