@@ -84,6 +84,11 @@ an identifying User-Agent. Collections with nothing for sale get no row.
   5% plus a network fee) are not included.
 - Source is fragment.com only. Other marketplaces (Tonnel, Portals, MRKT) price differently and are not covered.
 
+## Related
+
+- [telegram-gifts-price](https://github.com/Atlannn/telegram-gifts-price-api): Python client for the JSON API.
+- [awesome-telegram-gifts-api](https://github.com/Atlannn/awesome-telegram-gifts-api): official API methods, libraries and data sources for Telegram Gifts.
+
 ## License
 
 Code: MIT. Data: CC BY 4.0, credit "Telegram gifts floor prices, Baltic Assets" with a link to
