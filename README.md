@@ -8,6 +8,7 @@ Updated automatically by GitHub Actions. First measurement: **4 Nov 2026**, 123 
 
 - Data: [`data/floor_prices.csv`](data/floor_prices.csv) (full history), [`data/rates.csv`](data/rates.csv) (daily GRAM rate in USD and EUR), [`data/latest.json`](data/latest.json) (today's floors)
 - Live tool with rarity and a net-profit calculator: [Telegram Gifts checker on Baltic Assets](https://balticassets.eu/en/crypto/telegram-gifts/)
+- Python client: [telegram-gifts-price](https://github.com/Atlannn/telegram-gifts-price-api). Libraries, official API methods and other data sources: [awesome-telegram-gifts-api](https://github.com/Atlannn/awesome-telegram-gifts-api)
 
 ## Charts
 
