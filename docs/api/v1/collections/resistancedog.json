@@ -6,10 +6,19 @@
    "date": "2026-11-04",
    "floor_gram": 638.0,
    "floor_fixed_gram": 638.0,
-   "floor_usd": 750.03,
-   "floor_eur": 668.24,
+   "floor_usd": 750.73,
+   "floor_eur": 668.88,
    "lots_seen": 60,
    "auctions_seen": 0
+  },
+  {
+   "date": "2026-11-05",
+   "floor_gram": 599.0,
+   "floor_fixed_gram": 599.0,
+   "floor_usd": 675.13,
+   "floor_eur": 601.16,
+   "lots_seen": 60,
+   "auctions_seen": 1
   }
  ]
 }
