@@ -19,6 +19,15 @@
    "floor_eur": 75.27,
    "lots_seen": 37,
    "auctions_seen": 37
+  },
+  {
+   "date": "2026-11-06",
+   "floor_gram": 75.0,
+   "floor_fixed_gram": null,
+   "floor_usd": 82.04,
+   "floor_eur": 73.27,
+   "lots_seen": 37,
+   "auctions_seen": 37
   }
  ]
 }
