@@ -1,947 +1,995 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "unit": "GRAM",
  "source": "fragment.com",
  "rate": {
-  "usd": 1.0454,
-  "eur": 0.9473
+  "usd": 1.0403,
+  "eur": 0.9443
  },
  "floors": {
   "algorithmcup": {
    "floor_gram": 3000.0,
    "floor_fixed_gram": 3000.0,
-   "floor_usd": 3136.2,
-   "floor_eur": 2841.9,
+   "floor_usd": 3120.9,
+   "floor_eur": 2832.9,
    "lots_seen": 14,
    "auctions_seen": 0
   },
   "artisanbrick": {
    "floor_gram": 85.0,
    "floor_fixed_gram": 85.0,
-   "floor_usd": 88.86,
-   "floor_eur": 80.52,
+   "floor_usd": 88.43,
+   "floor_eur": 80.27,
    "lots_seen": 60,
    "auctions_seen": 0
   },
   "astralshard": {
-   "floor_gram": 166.0,
-   "floor_fixed_gram": 166.0,
-   "floor_usd": 173.54,
-   "floor_eur": 157.25,
+   "floor_gram": 167.0,
+   "floor_fixed_gram": 167.0,
+   "floor_usd": 173.73,
+   "floor_eur": 157.7,
    "lots_seen": 60,
    "auctions_seen": 0
   },
   "bdaycandle": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 21
+   "auctions_seen": 10
   },
   "berrybox": {
-   "floor_gram": 10.0,
+   "floor_gram": 11.0,
    "floor_fixed_gram": null,
-   "floor_usd": 10.45,
-   "floor_eur": 9.47,
+   "floor_usd": 11.44,
+   "floor_eur": 10.39,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "bigyear": {
    "floor_gram": 5.0,
    "floor_fixed_gram": 5.0,
-   "floor_usd": 5.23,
-   "floor_eur": 4.74,
+   "floor_usd": 5.2,
+   "floor_eur": 4.72,
    "lots_seen": 60,
-   "auctions_seen": 11
+   "auctions_seen": 8
   },
   "blingbinky": {
    "floor_gram": 30.0,
    "floor_fixed_gram": 30.0,
-   "floor_usd": 31.36,
-   "floor_eur": 28.42,
+   "floor_usd": 31.21,
+   "floor_eur": 28.33,
    "lots_seen": 60,
    "auctions_seen": 3
   },
   "bondedring": {
    "floor_gram": 49.0,
    "floor_fixed_gram": 49.0,
-   "floor_usd": 51.22,
-   "floor_eur": 46.42,
+   "floor_usd": 50.97,
+   "floor_eur": 46.27,
    "lots_seen": 60,
    "auctions_seen": 3
   },
   "bowtie": {
    "floor_gram": 7.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 7.32,
-   "floor_eur": 6.63,
+   "floor_usd": 7.28,
+   "floor_eur": 6.61,
    "lots_seen": 60,
-   "auctions_seen": 8
+   "auctions_seen": 9
   },
   "bunnymuffin": {
    "floor_gram": 10.0,
    "floor_fixed_gram": 10.0,
-   "floor_usd": 10.45,
-   "floor_eur": 9.47,
+   "floor_usd": 10.4,
+   "floor_eur": 9.44,
    "lots_seen": 60,
    "auctions_seen": 8
   },
   "candycane": {
    "floor_gram": 5.0,
    "floor_fixed_gram": 5.0,
-   "floor_usd": 5.23,
-   "floor_eur": 4.74,
+   "floor_usd": 5.2,
+   "floor_eur": 4.72,
    "lots_seen": 60,
    "auctions_seen": 21
   },
   "chillflame": {
    "floor_gram": 5.0,
    "floor_fixed_gram": 5.0,
-   "floor_usd": 5.23,
-   "floor_eur": 4.74,
+   "floor_usd": 5.2,
+   "floor_eur": 4.72,
    "lots_seen": 60,
    "auctions_seen": 6
   },
   "cloverpin": {
-   "floor_gram": 7.0,
+   "floor_gram": 6.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 7.32,
-   "floor_eur": 6.63,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 10
+   "auctions_seen": 9
   },
   "cookieheart": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
    "auctions_seen": 17
   },
   "crystalball": {
    "floor_gram": 15.0,
    "floor_fixed_gram": 15.0,
-   "floor_usd": 15.68,
-   "floor_eur": 14.21,
+   "floor_usd": 15.6,
+   "floor_eur": 14.16,
    "lots_seen": 60,
    "auctions_seen": 4
   },
   "cupidcharm": {
    "floor_gram": 28.0,
    "floor_fixed_gram": 29.0,
-   "floor_usd": 29.27,
-   "floor_eur": 26.52,
+   "floor_usd": 29.13,
+   "floor_eur": 26.44,
    "lots_seen": 60,
-   "auctions_seen": 10
+   "auctions_seen": 9
   },
   "deskcalendar": {
    "floor_gram": 7.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 7.32,
-   "floor_eur": 6.63,
+   "floor_usd": 7.28,
+   "floor_eur": 6.61,
    "lots_seen": 60,
-   "auctions_seen": 44
+   "auctions_seen": 43
   },
   "diamondring": {
    "floor_gram": 40.0,
    "floor_fixed_gram": 41.0,
-   "floor_usd": 41.82,
-   "floor_eur": 37.89,
+   "floor_usd": 41.61,
+   "floor_eur": 37.77,
    "lots_seen": 60,
    "auctions_seen": 4
   },
   "durovscap": {
    "floor_gram": 499.0,
    "floor_fixed_gram": null,
-   "floor_usd": 521.65,
-   "floor_eur": 472.7,
+   "floor_usd": 519.11,
+   "floor_eur": 471.21,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "durovsglasses": {
    "floor_gram": 150.0,
    "floor_fixed_gram": 150.0,
-   "floor_usd": 156.81,
-   "floor_eur": 142.09,
+   "floor_usd": 156.04,
+   "floor_eur": 141.65,
    "lots_seen": 60,
    "auctions_seen": 1
   },
   "easteregg": {
-   "floor_gram": 5.0,
-   "floor_fixed_gram": 5.0,
-   "floor_usd": 5.23,
-   "floor_eur": 4.74,
+   "floor_gram": 6.0,
+   "floor_fixed_gram": 6.0,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 18
+   "auctions_seen": 13
   },
   "electricskull": {
    "floor_gram": 35.0,
    "floor_fixed_gram": 35.0,
-   "floor_usd": 36.59,
-   "floor_eur": 33.16,
+   "floor_usd": 36.41,
+   "floor_eur": 33.05,
    "lots_seen": 60,
    "auctions_seen": 1
   },
   "eternalcandle": {
    "floor_gram": 7.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 7.32,
-   "floor_eur": 6.63,
+   "floor_usd": 7.28,
+   "floor_eur": 6.61,
    "lots_seen": 60,
    "auctions_seen": 2
   },
   "eternalrose": {
    "floor_gram": 35.0,
    "floor_fixed_gram": null,
-   "floor_usd": 36.59,
-   "floor_eur": 33.16,
-   "lots_seen": 57,
-   "auctions_seen": 57
+   "floor_usd": 36.41,
+   "floor_eur": 33.05,
+   "lots_seen": 53,
+   "auctions_seen": 53
   },
   "evileye": {
    "floor_gram": 10.0,
    "floor_fixed_gram": null,
-   "floor_usd": 10.45,
-   "floor_eur": 9.47,
+   "floor_usd": 10.4,
+   "floor_eur": 9.44,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "faithamulet": {
    "floor_gram": 7.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 7.32,
-   "floor_eur": 6.63,
+   "floor_usd": 7.28,
+   "floor_eur": 6.61,
    "lots_seen": 60,
-   "auctions_seen": 12
+   "auctions_seen": 9
   },
   "finepen": {
    "floor_gram": 10.0,
    "floor_fixed_gram": 10.0,
-   "floor_usd": 10.45,
-   "floor_eur": 9.47,
+   "floor_usd": 10.4,
+   "floor_eur": 9.44,
    "lots_seen": 60,
-   "auctions_seen": 14
+   "auctions_seen": 13
   },
   "flyingbroom": {
    "floor_gram": 15.0,
    "floor_fixed_gram": 15.0,
-   "floor_usd": 15.68,
-   "floor_eur": 14.21,
+   "floor_usd": 15.6,
+   "floor_eur": 14.16,
    "lots_seen": 60,
    "auctions_seen": 22
   },
   "freshsocks": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
    "auctions_seen": 12
   },
   "gemsignet": {
    "floor_gram": 75.0,
    "floor_fixed_gram": 75.0,
-   "floor_usd": 78.41,
-   "floor_eur": 71.05,
+   "floor_usd": 78.02,
+   "floor_eur": 70.82,
    "lots_seen": 60,
    "auctions_seen": 1
   },
   "genielamp": {
    "floor_gram": 44.0,
    "floor_fixed_gram": 44.0,
-   "floor_usd": 46.0,
-   "floor_eur": 41.68,
+   "floor_usd": 45.77,
+   "floor_eur": 41.55,
    "lots_seen": 60,
-   "auctions_seen": 4
+   "auctions_seen": 5
   },
   "gingercookie": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
    "auctions_seen": 14
   },
   "hangingstar": {
    "floor_gram": 11.0,
    "floor_fixed_gram": 11.0,
-   "floor_usd": 11.5,
-   "floor_eur": 10.42,
+   "floor_usd": 11.44,
+   "floor_eur": 10.39,
    "lots_seen": 60,
    "auctions_seen": 5
   },
   "happybrownie": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 8
+   "auctions_seen": 5
+  },
+  "heartlocket": {
+   "floor_gram": 1700.0,
+   "floor_fixed_gram": 1700.0,
+   "floor_usd": 1768.51,
+   "floor_eur": 1605.31,
+   "lots_seen": 40,
+   "auctions_seen": 0
+  },
+  "heroichelmet": {
+   "floor_gram": 250.0,
+   "floor_fixed_gram": 250.0,
+   "floor_usd": 260.07,
+   "floor_eur": 236.08,
+   "lots_seen": 60,
+   "auctions_seen": 0
+  },
+  "hexpot": {
+   "floor_gram": 9.0,
+   "floor_fixed_gram": null,
+   "floor_usd": 9.36,
+   "floor_eur": 8.5,
+   "lots_seen": 60,
+   "auctions_seen": 60
+  },
+  "holidaydrink": {
+   "floor_gram": 6.0,
+   "floor_fixed_gram": 6.0,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
+   "lots_seen": 60,
+   "auctions_seen": 13
+  },
+  "homemadecake": {
+   "floor_gram": 7.0,
+   "floor_fixed_gram": null,
+   "floor_usd": 7.28,
+   "floor_eur": 6.61,
+   "lots_seen": 60,
+   "auctions_seen": 60
+  },
+  "hypnolollipop": {
+   "floor_gram": 6.0,
+   "floor_fixed_gram": 6.0,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
+   "lots_seen": 60,
+   "auctions_seen": 9
   },
   "icecream": {
    "floor_gram": 5.0,
    "floor_fixed_gram": 5.0,
-   "floor_usd": 5.23,
-   "floor_eur": 4.74,
+   "floor_usd": 5.2,
+   "floor_eur": 4.72,
    "lots_seen": 60,
-   "auctions_seen": 24
+   "auctions_seen": 16
   },
   "inputkey": {
    "floor_gram": 7.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 7.32,
-   "floor_eur": 6.63,
+   "floor_usd": 7.28,
+   "floor_eur": 6.61,
    "lots_seen": 60,
-   "auctions_seen": 8
+   "auctions_seen": 7
   },
   "instantramen": {
    "floor_gram": 5.0,
    "floor_fixed_gram": 5.0,
-   "floor_usd": 5.23,
-   "floor_eur": 4.74,
+   "floor_usd": 5.2,
+   "floor_eur": 4.72,
    "lots_seen": 60,
-   "auctions_seen": 15
+   "auctions_seen": 13
   },
   "intelligencecup": {
    "floor_gram": 1700.0,
    "floor_fixed_gram": 1700.0,
-   "floor_usd": 1777.18,
-   "floor_eur": 1610.41,
+   "floor_usd": 1768.51,
+   "floor_eur": 1605.31,
    "lots_seen": 8,
    "auctions_seen": 0
   },
   "iongem": {
    "floor_gram": 85.0,
    "floor_fixed_gram": 85.0,
-   "floor_usd": 88.86,
-   "floor_eur": 80.52,
+   "floor_usd": 88.43,
+   "floor_eur": 80.27,
    "lots_seen": 60,
    "auctions_seen": 1
   },
   "ionicdryer": {
    "floor_gram": 18.0,
    "floor_fixed_gram": 18.0,
-   "floor_usd": 18.82,
-   "floor_eur": 17.05,
+   "floor_usd": 18.73,
+   "floor_eur": 17.0,
    "lots_seen": 60,
    "auctions_seen": 2
   },
   "jackinthebox": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
    "auctions_seen": 18
   },
   "jellybunny": {
    "floor_gram": 11.0,
    "floor_fixed_gram": null,
-   "floor_usd": 11.5,
-   "floor_eur": 10.42,
+   "floor_usd": 11.44,
+   "floor_eur": 10.39,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "jesterhat": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 20
+   "auctions_seen": 21
   },
   "jinglebells": {
    "floor_gram": 12.0,
    "floor_fixed_gram": 12.0,
-   "floor_usd": 12.54,
-   "floor_eur": 11.37,
+   "floor_usd": 12.48,
+   "floor_eur": 11.33,
    "lots_seen": 60,
-   "auctions_seen": 10
+   "auctions_seen": 11
   },
   "jollychimp": {
-   "floor_gram": 9.0,
-   "floor_fixed_gram": 9.0,
-   "floor_usd": 9.41,
-   "floor_eur": 8.53,
+   "floor_gram": 10.0,
+   "floor_fixed_gram": 10.0,
+   "floor_usd": 10.4,
+   "floor_eur": 9.44,
    "lots_seen": 60,
-   "auctions_seen": 13
+   "auctions_seen": 11
   },
   "joyfulbundle": {
    "floor_gram": 10.0,
    "floor_fixed_gram": 11.0,
-   "floor_usd": 10.45,
-   "floor_eur": 9.47,
+   "floor_usd": 10.4,
+   "floor_eur": 9.44,
    "lots_seen": 60,
-   "auctions_seen": 4
+   "auctions_seen": 5
   },
   "khabibspapakha": {
-   "floor_gram": 38.0,
-   "floor_fixed_gram": 38.0,
-   "floor_usd": 39.73,
-   "floor_eur": 36.0,
+   "floor_gram": 31.0,
+   "floor_fixed_gram": 31.0,
+   "floor_usd": 32.25,
+   "floor_eur": 29.27,
    "lots_seen": 60,
    "auctions_seen": 4
   },
   "kissedfrog": {
    "floor_gram": 66.0,
    "floor_fixed_gram": null,
-   "floor_usd": 69.0,
-   "floor_eur": 62.52,
+   "floor_usd": 68.66,
+   "floor_eur": 62.32,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "libertyfigure": {
    "floor_gram": 7.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 7.32,
-   "floor_eur": 6.63,
+   "floor_usd": 7.28,
+   "floor_eur": 6.61,
    "lots_seen": 60,
-   "auctions_seen": 3
+   "auctions_seen": 6
   },
   "lightsword": {
    "floor_gram": 7.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 7.32,
-   "floor_eur": 6.63,
+   "floor_usd": 7.28,
+   "floor_eur": 6.61,
    "lots_seen": 60,
-   "auctions_seen": 30
+   "auctions_seen": 25
   },
   "lolpop": {
    "floor_gram": 5.0,
    "floor_fixed_gram": 5.0,
-   "floor_usd": 5.23,
-   "floor_eur": 4.74,
+   "floor_usd": 5.2,
+   "floor_eur": 4.72,
    "lots_seen": 60,
-   "auctions_seen": 6
+   "auctions_seen": 4
   },
   "lootbag": {
-   "floor_gram": 159.0,
-   "floor_fixed_gram": 159.0,
-   "floor_usd": 166.22,
-   "floor_eur": 150.62,
+   "floor_gram": 150.0,
+   "floor_fixed_gram": 150.0,
+   "floor_usd": 156.04,
+   "floor_eur": 141.65,
    "lots_seen": 60,
-   "auctions_seen": 1
+   "auctions_seen": 0
   },
   "lovecandle": {
    "floor_gram": 13.0,
    "floor_fixed_gram": 13.0,
-   "floor_usd": 13.59,
-   "floor_eur": 12.31,
+   "floor_usd": 13.52,
+   "floor_eur": 12.28,
    "lots_seen": 60,
    "auctions_seen": 2
   },
   "lovepotion": {
    "floor_gram": 18.0,
    "floor_fixed_gram": 18.0,
-   "floor_usd": 18.82,
-   "floor_eur": 17.05,
+   "floor_usd": 18.73,
+   "floor_eur": 17.0,
    "lots_seen": 60,
-   "auctions_seen": 10
+   "auctions_seen": 9
   },
   "lowrider": {
    "floor_gram": 77.0,
    "floor_fixed_gram": 77.0,
-   "floor_usd": 80.5,
-   "floor_eur": 72.94,
+   "floor_usd": 80.1,
+   "floor_eur": 72.71,
    "lots_seen": 60,
    "auctions_seen": 11
   },
   "luckylocket": {
-   "floor_gram": 20.0,
-   "floor_fixed_gram": 20.0,
-   "floor_usd": 20.91,
-   "floor_eur": 18.95,
+   "floor_gram": 17.0,
+   "floor_fixed_gram": 17.0,
+   "floor_usd": 17.69,
+   "floor_eur": 16.05,
    "lots_seen": 60,
    "auctions_seen": 0
   },
   "lunarsnake": {
    "floor_gram": 5.0,
    "floor_fixed_gram": 5.0,
-   "floor_usd": 5.23,
-   "floor_eur": 4.74,
+   "floor_usd": 5.2,
+   "floor_eur": 4.72,
    "lots_seen": 60,
-   "auctions_seen": 9
+   "auctions_seen": 4
   },
   "lushbouquet": {
    "floor_gram": 7.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 7.32,
-   "floor_eur": 6.63,
+   "floor_usd": 7.28,
+   "floor_eur": 6.61,
    "lots_seen": 60,
-   "auctions_seen": 10
+   "auctions_seen": 9
   },
   "madpumpkin": {
-   "floor_gram": 15.0,
-   "floor_fixed_gram": 15.0,
-   "floor_usd": 15.68,
-   "floor_eur": 14.21,
+   "floor_gram": 14.0,
+   "floor_fixed_gram": 14.0,
+   "floor_usd": 14.56,
+   "floor_eur": 13.22,
    "lots_seen": 60,
-   "auctions_seen": 19
+   "auctions_seen": 20
   },
   "magicpotion": {
    "floor_gram": 70.0,
    "floor_fixed_gram": null,
-   "floor_usd": 73.18,
-   "floor_eur": 66.31,
-   "lots_seen": 38,
-   "auctions_seen": 38
+   "floor_usd": 72.82,
+   "floor_eur": 66.1,
+   "lots_seen": 40,
+   "auctions_seen": 40
   },
   "mightyarm": {
    "floor_gram": 150.0,
    "floor_fixed_gram": 150.0,
-   "floor_usd": 156.81,
-   "floor_eur": 142.09,
+   "floor_usd": 156.04,
+   "floor_eur": 141.65,
    "lots_seen": 60,
    "auctions_seen": 2
   },
   "minioscar": {
    "floor_gram": 120.0,
    "floor_fixed_gram": 120.0,
-   "floor_usd": 125.45,
-   "floor_eur": 113.68,
+   "floor_usd": 124.84,
+   "floor_eur": 113.32,
    "lots_seen": 60,
    "auctions_seen": 1
   },
   "miragelamp": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 4
+   "auctions_seen": 6
   },
   "moneypot": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 10
+   "auctions_seen": 13
   },
   "moodpack": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 17
+   "auctions_seen": 12
   },
   "moonpendant": {
    "floor_gram": 8.0,
    "floor_fixed_gram": 8.0,
-   "floor_usd": 8.36,
-   "floor_eur": 7.58,
+   "floor_usd": 8.32,
+   "floor_eur": 7.55,
    "lots_seen": 60,
-   "auctions_seen": 5
+   "auctions_seen": 6
   },
   "moussecake": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
    "auctions_seen": 5
   },
   "nailbracelet": {
    "floor_gram": 149.0,
    "floor_fixed_gram": 149.0,
-   "floor_usd": 155.76,
-   "floor_eur": 141.15,
+   "floor_usd": 155.0,
+   "floor_eur": 140.7,
    "lots_seen": 60,
    "auctions_seen": 0
   },
   "nekohelmet": {
    "floor_gram": 45.0,
    "floor_fixed_gram": 49.0,
-   "floor_usd": 47.04,
-   "floor_eur": 42.63,
+   "floor_usd": 46.81,
+   "floor_eur": 42.49,
    "lots_seen": 60,
    "auctions_seen": 6
   },
   "partysparkler": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 4
+   "auctions_seen": 5
   },
   "perfumebottle": {
-   "floor_gram": 99.0,
+   "floor_gram": 95.0,
    "floor_fixed_gram": null,
-   "floor_usd": 103.49,
-   "floor_eur": 93.78,
-   "lots_seen": 41,
-   "auctions_seen": 41
+   "floor_usd": 98.83,
+   "floor_eur": 89.71,
+   "lots_seen": 36,
+   "auctions_seen": 36
   },
   "petsnake": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 17
+   "auctions_seen": 13
   },
   "plushpepe": {
-   "floor_gram": 7499.0,
+   "floor_gram": 7450.0,
    "floor_fixed_gram": null,
-   "floor_usd": 7839.45,
-   "floor_eur": 7103.8,
+   "floor_usd": 7750.23,
+   "floor_eur": 7035.03,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "poolfloat": {
    "floor_gram": 5.0,
    "floor_fixed_gram": 5.0,
-   "floor_usd": 5.23,
-   "floor_eur": 4.74,
+   "floor_usd": 5.2,
+   "floor_eur": 4.72,
    "lots_seen": 60,
-   "auctions_seen": 15
+   "auctions_seen": 14
   },
   "preciouspeach": {
    "floor_gram": 319.0,
    "floor_fixed_gram": null,
-   "floor_usd": 333.48,
-   "floor_eur": 302.19,
-   "lots_seen": 46,
-   "auctions_seen": 46
+   "floor_usd": 331.86,
+   "floor_eur": 301.23,
+   "lots_seen": 47,
+   "auctions_seen": 47
   },
   "prettyposy": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 14
+   "auctions_seen": 13
   },
   "rarebird": {
    "floor_gram": 33.0,
    "floor_fixed_gram": 33.0,
-   "floor_usd": 34.5,
-   "floor_eur": 31.26,
+   "floor_usd": 34.33,
+   "floor_eur": 31.16,
    "lots_seen": 60,
    "auctions_seen": 3
   },
   "recordplayer": {
    "floor_gram": 15.0,
    "floor_fixed_gram": 15.0,
-   "floor_usd": 15.68,
-   "floor_eur": 14.21,
+   "floor_usd": 15.6,
+   "floor_eur": 14.16,
    "lots_seen": 60,
-   "auctions_seen": 10
+   "auctions_seen": 11
   },
   "resistancedog": {
-   "floor_gram": 629.0,
-   "floor_fixed_gram": 629.0,
-   "floor_usd": 657.56,
-   "floor_eur": 595.85,
+   "floor_gram": 595.0,
+   "floor_fixed_gram": 595.0,
+   "floor_usd": 618.98,
+   "floor_eur": 561.86,
    "lots_seen": 60,
    "auctions_seen": 0
   },
   "restlessjar": {
    "floor_gram": 7.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 7.32,
-   "floor_eur": 6.63,
+   "floor_usd": 7.28,
+   "floor_eur": 6.61,
    "lots_seen": 60,
-   "auctions_seen": 13
+   "auctions_seen": 12
   },
   "sakuraflower": {
    "floor_gram": 14.0,
    "floor_fixed_gram": 14.0,
-   "floor_usd": 14.64,
-   "floor_eur": 13.26,
+   "floor_usd": 14.56,
+   "floor_eur": 13.22,
    "lots_seen": 60,
-   "auctions_seen": 4
+   "auctions_seen": 5
   },
   "santahat": {
    "floor_gram": 9.0,
    "floor_fixed_gram": null,
-   "floor_usd": 9.41,
-   "floor_eur": 8.53,
+   "floor_usd": 9.36,
+   "floor_eur": 8.5,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "scaredcat": {
-   "floor_gram": 320.0,
+   "floor_gram": 319.0,
    "floor_fixed_gram": null,
-   "floor_usd": 334.53,
-   "floor_eur": 303.14,
+   "floor_usd": 331.86,
+   "floor_eur": 301.23,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "sharptongue": {
    "floor_gram": 58.0,
    "floor_fixed_gram": null,
-   "floor_usd": 60.63,
-   "floor_eur": 54.94,
-   "lots_seen": 56,
-   "auctions_seen": 56
+   "floor_usd": 60.34,
+   "floor_eur": 54.77,
+   "lots_seen": 54,
+   "auctions_seen": 54
   },
   "signetring": {
    "floor_gram": 38.0,
    "floor_fixed_gram": null,
-   "floor_usd": 39.73,
-   "floor_eur": 36.0,
+   "floor_usd": 39.53,
+   "floor_eur": 35.88,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "skullflower": {
    "floor_gram": 15.0,
    "floor_fixed_gram": null,
-   "floor_usd": 15.68,
-   "floor_eur": 14.21,
+   "floor_usd": 15.6,
+   "floor_eur": 14.16,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "skystilettos": {
    "floor_gram": 24.0,
    "floor_fixed_gram": 24.0,
-   "floor_usd": 25.09,
-   "floor_eur": 22.74,
+   "floor_usd": 24.97,
+   "floor_eur": 22.66,
    "lots_seen": 60,
    "auctions_seen": 1
   },
   "sleighbell": {
    "floor_gram": 13.0,
    "floor_fixed_gram": 13.0,
-   "floor_usd": 13.59,
-   "floor_eur": 12.31,
+   "floor_usd": 13.52,
+   "floor_eur": 12.28,
    "lots_seen": 60,
    "auctions_seen": 6
   },
   "snakebox": {
    "floor_gram": 5.0,
    "floor_fixed_gram": 5.0,
-   "floor_usd": 5.23,
-   "floor_eur": 4.74,
+   "floor_usd": 5.2,
+   "floor_eur": 4.72,
    "lots_seen": 60,
-   "auctions_seen": 13
+   "auctions_seen": 12
   },
   "snoopcigar": {
    "floor_gram": 20.0,
    "floor_fixed_gram": 20.0,
-   "floor_usd": 20.91,
-   "floor_eur": 18.95,
+   "floor_usd": 20.81,
+   "floor_eur": 18.89,
    "lots_seen": 60,
-   "auctions_seen": 4
+   "auctions_seen": 5
   },
   "snoopdogg": {
    "floor_gram": 7.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 7.32,
-   "floor_eur": 6.63,
+   "floor_usd": 7.28,
+   "floor_eur": 6.61,
    "lots_seen": 60,
-   "auctions_seen": 12
+   "auctions_seen": 14
   },
   "snowglobe": {
    "floor_gram": 8.0,
    "floor_fixed_gram": 8.0,
-   "floor_usd": 8.36,
-   "floor_eur": 7.58,
+   "floor_usd": 8.32,
+   "floor_eur": 7.55,
    "lots_seen": 60,
-   "auctions_seen": 4
+   "auctions_seen": 5
   },
   "snowmittens": {
    "floor_gram": 10.0,
    "floor_fixed_gram": 10.0,
-   "floor_usd": 10.45,
-   "floor_eur": 9.47,
+   "floor_usd": 10.4,
+   "floor_eur": 9.44,
    "lots_seen": 60,
    "auctions_seen": 6
   },
   "spicedwine": {
    "floor_gram": 6.0,
    "floor_fixed_gram": null,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "springbasket": {
    "floor_gram": 7.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 7.32,
-   "floor_eur": 6.63,
+   "floor_usd": 7.28,
+   "floor_eur": 6.61,
    "lots_seen": 60,
-   "auctions_seen": 15
+   "auctions_seen": 10
   },
   "spyagaric": {
    "floor_gram": 8.0,
    "floor_fixed_gram": null,
-   "floor_usd": 8.36,
-   "floor_eur": 7.58,
+   "floor_usd": 8.32,
+   "floor_eur": 7.55,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "starnotepad": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 27
+   "auctions_seen": 24
   },
   "stellarrocket": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
    "auctions_seen": 6
   },
   "surgeboard": {
    "floor_gram": 8.0,
-   "floor_fixed_gram": 9.0,
-   "floor_usd": 8.36,
-   "floor_eur": 7.58,
+   "floor_fixed_gram": 8.0,
+   "floor_usd": 8.32,
+   "floor_eur": 7.55,
    "lots_seen": 60,
-   "auctions_seen": 7
+   "auctions_seen": 6
   },
   "swagbag": {
    "floor_gram": 7.0,
    "floor_fixed_gram": 7.0,
-   "floor_usd": 7.32,
-   "floor_eur": 6.63,
+   "floor_usd": 7.28,
+   "floor_eur": 6.61,
    "lots_seen": 60,
-   "auctions_seen": 24
+   "auctions_seen": 22
   },
   "swisswatch": {
-   "floor_gram": 72.0,
-   "floor_fixed_gram": 72.0,
-   "floor_usd": 75.27,
-   "floor_eur": 68.21,
+   "floor_gram": 67.0,
+   "floor_fixed_gram": 67.0,
+   "floor_usd": 69.7,
+   "floor_eur": 63.27,
    "lots_seen": 60,
    "auctions_seen": 4
   },
   "tamagadget": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
    "auctions_seen": 6
   },
   "timelessbook": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 8
+   "auctions_seen": 9
   },
   "tophat": {
-   "floor_gram": 11.0,
+   "floor_gram": 12.0,
    "floor_fixed_gram": 12.0,
-   "floor_usd": 11.5,
-   "floor_eur": 10.42,
+   "floor_usd": 12.48,
+   "floor_eur": 11.33,
    "lots_seen": 60,
-   "auctions_seen": 13
+   "auctions_seen": 12
   },
   "toybear": {
    "floor_gram": 40.0,
    "floor_fixed_gram": 40.0,
-   "floor_usd": 41.82,
-   "floor_eur": 37.89,
+   "floor_usd": 41.61,
+   "floor_eur": 37.77,
    "lots_seen": 60,
    "auctions_seen": 1
   },
   "trappedheart": {
-   "floor_gram": 20.0,
+   "floor_gram": 22.0,
    "floor_fixed_gram": null,
-   "floor_usd": 20.91,
-   "floor_eur": 18.95,
+   "floor_usd": 22.89,
+   "floor_eur": 20.77,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "ufcstrike": {
    "floor_gram": 23.0,
    "floor_fixed_gram": 23.0,
-   "floor_usd": 24.04,
-   "floor_eur": 21.79,
+   "floor_usd": 23.93,
+   "floor_eur": 21.72,
    "lots_seen": 60,
-   "auctions_seen": 9
+   "auctions_seen": 10
   },
   "valentinebox": {
    "floor_gram": 14.0,
    "floor_fixed_gram": 14.0,
-   "floor_usd": 14.64,
-   "floor_eur": 13.26,
+   "floor_usd": 14.56,
+   "floor_eur": 13.22,
    "lots_seen": 60,
    "auctions_seen": 2
   },
   "vicecream": {
    "floor_gram": 5.0,
    "floor_fixed_gram": 5.0,
-   "floor_usd": 5.23,
-   "floor_eur": 4.74,
+   "floor_usd": 5.2,
+   "floor_eur": 4.72,
    "lots_seen": 60,
-   "auctions_seen": 18
+   "auctions_seen": 17
   },
   "victorymedal": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 22
+   "auctions_seen": 23
   },
   "vintagecigar": {
    "floor_gram": 49.0,
    "floor_fixed_gram": null,
-   "floor_usd": 51.22,
-   "floor_eur": 46.42,
+   "floor_usd": 50.97,
+   "floor_eur": 46.27,
    "lots_seen": 60,
    "auctions_seen": 60
   },
   "voodoodoll": {
-   "floor_gram": 46.0,
-   "floor_fixed_gram": 46.0,
-   "floor_usd": 48.09,
-   "floor_eur": 43.58,
+   "floor_gram": 47.0,
+   "floor_fixed_gram": 47.0,
+   "floor_usd": 48.89,
+   "floor_eur": 44.38,
    "lots_seen": 60,
-   "auctions_seen": 6
+   "auctions_seen": 5
   },
   "westsidesign": {
-   "floor_gram": 140.0,
-   "floor_fixed_gram": 140.0,
-   "floor_usd": 146.36,
-   "floor_eur": 132.62,
+   "floor_gram": 139.0,
+   "floor_fixed_gram": 139.0,
+   "floor_usd": 144.6,
+   "floor_eur": 131.26,
    "lots_seen": 60,
    "auctions_seen": 0
   },
   "whipcupcake": {
    "floor_gram": 5.0,
    "floor_fixed_gram": 5.0,
-   "floor_usd": 5.23,
-   "floor_eur": 4.74,
+   "floor_usd": 5.2,
+   "floor_eur": 4.72,
    "lots_seen": 60,
    "auctions_seen": 26
   },
   "winterwreath": {
    "floor_gram": 6.0,
    "floor_fixed_gram": 6.0,
-   "floor_usd": 6.27,
-   "floor_eur": 5.68,
+   "floor_usd": 6.24,
+   "floor_eur": 5.67,
    "lots_seen": 60,
-   "auctions_seen": 11
+   "auctions_seen": 13
   },
   "witchhat": {
    "floor_gram": 8.0,
-   "floor_fixed_gram": 10.0,
-   "floor_usd": 8.36,
-   "floor_eur": 7.58,
+   "floor_fixed_gram": 9.0,
+   "floor_usd": 8.32,
+   "floor_eur": 7.55,
    "lots_seen": 60,
-   "auctions_seen": 17
+   "auctions_seen": 15
   },
   "xmasstocking": {
    "floor_gram": 5.0,
    "floor_fixed_gram": 5.0,
-   "floor_usd": 5.23,
-   "floor_eur": 4.74,
+   "floor_usd": 5.2,
+   "floor_eur": 4.72,
    "lots_seen": 60,
-   "auctions_seen": 6
+   "auctions_seen": 4
   }
  }
 }
