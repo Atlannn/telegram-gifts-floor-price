@@ -1,0 +1,15 @@
+{
+ "collection": "hoarsehorse",
+ "unit": "GRAM",
+ "history": [
+  {
+   "date": "2026-11-28",
+   "floor_gram": 210.0,
+   "floor_fixed_gram": 210.0,
+   "floor_usd": 202.29,
+   "floor_eur": 184.8,
+   "lots_seen": 41,
+   "auctions_seen": 0
+  }
+ ]
+}

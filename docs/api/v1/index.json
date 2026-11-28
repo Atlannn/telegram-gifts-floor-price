@@ -1,6 +1,6 @@
 {
  "version": "v1",
- "latest_date": "2026-11-27",
+ "latest_date": "2026-11-28",
  "unit": "GRAM",
  "source": "fragment.com",
  "collections": [
@@ -41,6 +41,7 @@
   "heartlocket",
   "heroichelmet",
   "hexpot",
+  "hoarsehorse",
   "holidaydrink",
   "homemadecake",
   "hypnolollipop",
